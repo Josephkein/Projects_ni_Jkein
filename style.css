@@ -148,47 +148,54 @@ section{
     background-color: #457b9d;
 }
 
-@media screen and (max-width:720px){
+@media screen and (max-width:500px){
     .navbar ul{
         padding: 0px 10px;
     }
     .navbar a{
-        margin-right: 0px;
+        position: relative;
+        left: 345px;
+        font-size: 25px;
     }
     .name{
-        font-size:3em;
-        top: 27%;
+        font-size: 4em;
+        top: 50%;
+        left: 185px;
     }
     .name1{
-        font-size:3em;
-        top: 27%;
+        font-size:4em;
+        top: 50%;
+        left: 418px;
     }
     .name1::first-line{
         color:#00fff2;
     }
     .p1{
-        top: 44%;
-        left: 5em;
+        display: none;
+    }
+    .Rp1{
+        margin-top: 370px;
+        margin-left: 110px;
         color: white;
-        font-size: 17px;
-        word-spacing: 4px;
+        font-size: 30px;
+        text-align: center;
     }
     .btn1{
-        left: 6em;
-        top: 27em;
-        font-size: 18px;
-        padding: 11px;
-        width: 130px;
+        left: 3em;
+        top: 25em;
+        font-size: 30px;
+        padding: 20px;
+        width: 250px;
     }
     .btn1:hover{
         background-color:  #00fff2;
     }
     .btn2{
-        left: 15em;
-        top: 27em;
-        font-size: 18px;
-        padding: 11.5px;
-        width: 140px;
+        left: 13.2em;
+        top: 25em;
+        font-size: 30px;
+        padding: 20px;
+        width: 250px;
     }
     .btn2:hover{
         background-color:  #00fff2;
@@ -197,31 +204,45 @@ section{
         display: none;
     }
     .img1{
-        width: 200px;
+        width: 250px;
         border-radius: 5px;
-        top: 90px;
-        left: 150px;
+        top: 150px;
+        left: 240px;
     }
     .Ap{
-        top: 45px;
-        left: 6em;
-        font-size: 11px;
+        top: 100px;
+        left: 3.5em;
+        font-size: 19px;
         word-spacing: 2px;
     }
     .Aname{
-        font-size:1.5em;
-        top: 93px;
-        left: 5em;
+        font-size:2em;
+        top: 150px;
+        left: 6em;
         color: white;
     }
     .Aname1{
-        font-size:1.5em;
-        top: 45px;
-        left: 7em;
-        width: 230px;
+        font-size:2em;
+        top: 87.5px;
+        left: 8em;
+        width: 300px;
         border-bottom: 3px solid aqua;
     }
     .Aname1::first-line{
         color:#00fff2;
+    }
+    section{
+        width: 100vh;
+        height: 190.5vh;
+        overflow-x: hidden;
+    }
+    #aboutme{
+        width:120vh;
+    }
+    #skills{
+        width:120vh;
+    }
+    #projects{
+        width:120vh;
     }
 }
