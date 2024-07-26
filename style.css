@@ -26,7 +26,7 @@ body{
 .navbar a{
     text-decoration: none;
     color: white;
-    padding: 20px;
+    padding: 25px;
     display: block;
     text-align: center;
     margin-right: 25px;
@@ -147,8 +147,81 @@ section{
 #projects{
     background-color: #457b9d;
 }
-@media screen and (max-width: 600px){
-    nav, img, section, p, h1 {
-        width: 100%;
+
+@media screen and (max-width:720px){
+    .navbar ul{
+        padding: 0px 10px;
+    }
+    .navbar a{
+        margin-right: 0px;
+    }
+    .name{
+        font-size:3em;
+        top: 27%;
+    }
+    .name1{
+        font-size:3em;
+        top: 27%;
+    }
+    .name1::first-line{
+        color:#00fff2;
+    }
+    .p1{
+        top: 44%;
+        left: 5em;
+        color: white;
+        font-size: 17px;
+        word-spacing: 4px;
+    }
+    .btn1{
+        left: 6em;
+        top: 27em;
+        font-size: 18px;
+        padding: 11px;
+        width: 130px;
+    }
+    .btn1:hover{
+        background-color:  #00fff2;
+    }
+    .btn2{
+        left: 15em;
+        top: 27em;
+        font-size: 18px;
+        padding: 11.5px;
+        width: 140px;
+    }
+    .btn2:hover{
+        background-color:  #00fff2;
+    }
+    .img2{
+        display: none;
+    }
+    .img1{
+        width: 200px;
+        border-radius: 5px;
+        top: 90px;
+        left: 150px;
+    }
+    .Ap{
+        top: 45px;
+        left: 6em;
+        font-size: 11px;
+        word-spacing: 2px;
+    }
+    .Aname{
+        font-size:1.5em;
+        top: 93px;
+        left: 5em;
+        color: white;
+    }
+    .Aname1{
+        font-size:1.5em;
+        top: 45px;
+        left: 7em;
+        width: 230px;
+        border-bottom: 3px solid aqua;
+    }
+    .Aname1::first-line{
+        color:#00fff2;
     }
 }
