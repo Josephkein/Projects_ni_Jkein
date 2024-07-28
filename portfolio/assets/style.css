@@ -159,9 +159,6 @@ section{
     body::-webkit-scrollbar{
         display: none;
     }
-    html{
-        overflow-x: hidden;
-    }
     .navbar{
         position: sticky;
         top: 0;
