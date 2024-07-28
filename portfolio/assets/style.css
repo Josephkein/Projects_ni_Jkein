@@ -9,6 +9,7 @@ body{
     margin: 0px;
     top: 0;
     background-color:#1A2238;
+    font-family: Roboto;
 }
 .navbar{
     position: sticky;
@@ -64,7 +65,7 @@ body{
     font-size:5em;
     position: absolute;
     top: 22%;
-    left: 6em;
+    left: 5.6em;
     color: white;
 }
 .name1::first-line{
@@ -81,9 +82,9 @@ body{
     font-size:3em;
     position: relative;
     bottom: 9.6em;
-    left: 14.5em;
+    left: 14.3em;
     color: white;
-    width: 455px;
+    width: 460px;
     border-bottom: 3px solid aqua;
 }
 .Aname1::first-line{
@@ -106,6 +107,8 @@ body{
     color: white;
     font-size: 18px;
     word-spacing: 8px;
+    text-align: justify;
+    width: 38em;
 }
 .btn1{
     position: absolute;
@@ -153,6 +156,9 @@ section{
 }
 
 @media screen and (max-width:400px){
+    body::-webkit-scrollbar{
+        display: none;
+    }
     .navbar{
         position: sticky;
         top: 0;
@@ -164,47 +170,50 @@ section{
         position: relative;
         left: 380px;
         font-size: 25px;
+        display: none;
     }
     .name{
-        font-size: 5em;
-        top: 55%;
-        left: 140px;
+        font-size: 2em;
+        top: 20%;
+        left: 58px;
         width: 20em;
     }
     .name1{
-        font-size:5em;
-        top: 55%;
-        left: 418px;
+        font-size:2em;
+        top: 20%;
+        left: 160.5px;
     }
     .name1::first-line{
         color:#00fff2;
     }
     .p1{
+        font-family: "Noto Serif", serif;
         position: absolute;
-        top: 80%;
+        top: 30%;
         left: 2.5em;
         color: white;
-        font-size: 30px;
-        word-spacing: 4px;
+        font-size: 15px;
+        word-spacing: 0px;
         text-align: justify;
-        width: 20em;
+        width: 15em;
     }
     .btn1{
-        left: 3em;
-        top: 25em;
-        font-size: 30px;
-        padding: 20px;
-        width: 250px;
+        left: 2.5em;
+        top: 19em;
+        font-size: 20px;
+        padding: 10px;
+        width: 200px;
     }
     .btn1:hover{
         background-color:  #00fff2;
     }
     .btn2{
-        left: 13.2em;
-        top: 25em;
-        font-size: 30px;
-        padding: 20px;
-        width: 250px;
+        left: 2.5em;
+        top: 22em;
+        font-size: 20px;
+        padding: 10px;
+        width: 200px;
+        text-align: center;
     }
     .btn2:hover{
         background-color:  #00fff2;
@@ -213,28 +222,30 @@ section{
         display: none;
     }
     .img1{
-        width: 250px;
+        width: 100px;
         border-radius: 5px;
-        top: 150px;
-        left: 240px;
+        top: 60px;
+        left: 105px;
     }
     .Ap{
-        top: 100px;
-        left: 3.5em;
-        font-size: 19px;
+        top:10px;
+        left: 2.3em;
+        font-size: 10px;
         word-spacing: 2px;
+        text-align: justify;
+        width: 25em;
     }
     .Aname{
-        font-size:2em;
-        top: 150px;
-        left: 6em;
+        font-size:1.3em;
+        top: 51px;
+        left: 1.6em;
         color: white;
     }
     .Aname1{
-        font-size:2em;
-        top: 87.5px;
-        left: 8em;
-        width: 300px;
+        font-size:1.3em;
+        top: 10px;
+        left: 3.5em;
+        width: 200px;
         border-bottom: 3px solid aqua;
     }
     .Aname1::first-line{
@@ -242,19 +253,8 @@ section{
     }
     section{
         width: 100vh;
-        height: 190.5vh;
+        height: 100vh;
         overflow-x: hidden;
-    }
-    #aboutme{
-        width:120vh;
-        height: 200vh;
-    }
-    #skills{
-        width:120vh;
-        height: 200vh;
-    }
-    #projects{
-        width:120vh;
-        height: 200vh;
+        overflow: hidden;
     }
 }
