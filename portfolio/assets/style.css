@@ -146,13 +146,13 @@ section{
     height: 100vh;
 }
 #aboutme{
-    background-color: #1d3557;
+    background-color: #1A2238;
 }
 #skills{
-    background-color: #3d405b;
+    background-color: #1A2238;
 }
 #projects{
-    background-color: #457b9d;
+    background-color: #1A2238   ;
 }
 
 @media screen and (max-width:400px){
@@ -222,10 +222,10 @@ section{
         display: none;
     }
     .img1{
-        width: 100px;
+        width: 150px;
         border-radius: 5px;
-        top: 60px;
-        left: 105px;
+        top: 40px;
+        left: 75px;
     }
     .Ap{
         top:10px;
